@@ -1,0 +1,29 @@
+{
+  "name": "kiosk-password",
+  "version": "0.1.0",
+  "description": "TypeScript 기반 npm 패키지",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/kiosk-password.git"
+  },
+  "keywords": [
+    "typescript",
+    "npm",
+    "jest"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0"
+  }
+}
